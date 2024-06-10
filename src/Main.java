@@ -39,6 +39,28 @@ public class Main {
             System.out.println("Если скорость " + speed + ", то можно ездить спокойно");
         }
 
+        int years = 3;
+
+        if (years >= 2 && years <= 6) {
+
+            System.out.println("Если возраст человека равен " + years + ", то ему нужно ходить в детский сад");
+        }
+
+        if (years >= 7 && years <= 18) {
+
+            System.out.println("Если возраст человека равен " + years + ", то ему нужно ходить в школу");
+        }
+
+        if (years >= 18 && years <= 24) {
+
+            System.out.println("Если возраст человека равен " + years + ", то ему нужно ходить в университет");
+        }
+
+        if (years > 24) {
+
+            System.out.println("Если возраст человека равен " + years + ", то ему нужно ходить на работу");
+        }
+
 
         }
 
