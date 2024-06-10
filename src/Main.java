@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -12,7 +14,20 @@ public class Main {
             System.out.println("Если возраст человека равен " + age +  ", то он не достиг совершеннолетия, нужно немного подождать");
         }
 
+        int temperature = 2;
+
+        if (temperature < 5 ) {
+
+            System.out.println("На улице холодно, нужно надеть шапку");
+
+        }
+
+        else {
+            System.out.println("Сегодня тепло, можно идти без шапки");
+
+        }
+        }
+
     }
 
 
-}
