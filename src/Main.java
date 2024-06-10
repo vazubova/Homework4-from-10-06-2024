@@ -61,19 +61,19 @@ public class Main {
             System.out.println("Если возраст человека равен " + years + ", то ему нужно ходить на работу");
         }
 
-        int childAge = 3;
+        int childAge = 13;
 
         if ( childAge < 5) {
 
             System.out.println("Если возраст ребенка равен " + childAge + ", то он не может кататься на аттракционе");
         }
 
-        if ( childAge >= 5 && childAge < 14) {
+         else if ( childAge >= 5 && childAge < 14) {
 
             System.out.println("Если возраст ребенка равен " + childAge + ", то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
         }
 
-        if ( childAge >= 14 ) {
+        else {
 
             System.out.println("Если возраст ребенка равен " + childAge + ", то он может кататься без сопровождения взрослого");
         }
@@ -95,8 +95,29 @@ public class Main {
             System.out.println("В вагоне нет мест");
         }
 
+        int one = 3;
+        int two = 5;
+        int three = 7;
 
+        if ( one > two && one > three) {
 
+            System.out.println("Самое большое число из трёх " + one);
+        }
+
+        else if ( two > one && two > three) {
+
+            System.out.println("Самое большое число из трёх " + two);
+        }
+
+        else if ( three > one && three > two) {
+
+            System.out.println("Самое большое число из трёх " + three);
+        }
+
+        else {
+
+            System.out.println("Нет наибольшего одного числа");
+        }
 
         }
 
