@@ -78,6 +78,23 @@ public class Main {
             System.out.println("Если возраст ребенка равен " + childAge + ", то он может кататься без сопровождения взрослого");
         }
 
+        int countOfPeople = 103;
+
+        if ( countOfPeople < 60) {
+
+            System.out.println("Есть сидячие места в вагоне");
+        }
+
+        else if (countOfPeople >= 60 && countOfPeople < 102) {
+
+            System.out.println("В вагоне есть стоячие места");
+        }
+
+        else {
+
+            System.out.println("В вагоне нет мест");
+        }
+
 
 
 
